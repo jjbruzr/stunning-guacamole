@@ -1,6 +1,9 @@
 # Learning Python
 ## Install Python
+### Digital Ocean how to install python
 https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-ubuntu-22-04
+### Python.org install and venv pages
+https://docs.python.org/3/installing/index.html
 ## Creating virtual environments
 python3 -m venv /path/to/new/virtual/environment
 
