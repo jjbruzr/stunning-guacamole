@@ -5,6 +5,7 @@ def greeting(name):
     print('Hello', name)
 
 # Main program
-input_name = input('Enter your name:\n')
-
-greeting(input_name)
+name1 = input('Enter your name:\n')
+greeting(name1)
+name2 = input('Enter your name:\n')
+greeting(name2)
