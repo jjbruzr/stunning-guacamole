@@ -1,8 +1,6 @@
 # further investigation of functions
-
 def addition(a, b):
     return a + b
-
 
 # Main program
 num1 = float(input('Enter your 1st number:\n'))
