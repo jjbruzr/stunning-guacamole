@@ -1,4 +1,5 @@
 # Learning Python
+https://app.pluralsight.com/library/courses/python-3-fundamentals
 ## Install Python
 ### Digital Ocean how to install python
 https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-ubuntu-22-04
