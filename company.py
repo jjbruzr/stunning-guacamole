@@ -1,4 +1,3 @@
-# from the Employee.py file, import the Employee class
 from employee import Employee
 
 class Company:
@@ -8,24 +7,17 @@ class Company:
     def add_employee(self, new_employee):
         self.employees.append(new_employee)
 
-    def display_employees(self):
-        print('Current Employees:')
-        for i in self.employees:
-            print(i.fname, i.lname)
-            print('-----------------------')
-
-    def pay_employees(self):
-        print('Pay employees')
-
+    
 def main():
     my_company = Company()
 
-    employee1 = Employee('Stevie', 'Nixx', 50000)
+    employee1 = Employee('Sara', 'Hess', 50000)
     my_company.add_employee(employee1)
-    employee2 = Employee('Will', 'Smith', 25000)
+    employee2 = Employee('Lee', 'Smith', 25000)
     my_company.add_employee(employee2)
-    employee3 = Employee('Bob', 'Barker', 60000)
+    employee3 = Employee('Bob', 'Brown', 60000)
     my_company.add_employee(employee3)
-    my_company.display_employees()
+
+    print(my_company.employees)
 
 main()
