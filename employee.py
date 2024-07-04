@@ -7,7 +7,7 @@ class Employee:
         self.lname = lname
         self.salary = salary
 
-# create a method to calculate weekly paychecm amount
+# create a method to calculate weekly paycheck amount
     def calculate_paycheck(self):
         return self.salary/52
     
