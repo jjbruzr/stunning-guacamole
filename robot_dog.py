@@ -9,7 +9,7 @@ class Robot_Dog:
 
 
 # Main program
-my_dog = Robot_Dog('Spot', 'Chihuaha')
+my_dog = Robot_Dog('Stella', 'Mini Schnauzer')
 print(my_dog.name)
 print(my_dog.breed)
 my_dog.bark()
