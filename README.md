@@ -19,3 +19,7 @@ https://www.weatherapi.com/my/ - I can tinker with pulling a json file from an a
 ### Ubuntu
 set your shell to default zsh
 chsh -s $(which zsh)
+
+## Module 8
+### Reading Files
+with: # keywork to open read and close a file gracefully
